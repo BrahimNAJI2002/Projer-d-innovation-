@@ -1,10 +1,6 @@
 # Projet Innovation - Gestion de Patients et de Consultations
 
-Ce projet consiste en une application de gestion de patients, de médecins et de consultations développée en utilisant Spring Boot, Spring Data JPA et la base de données H2 pour les tests.
-
-## Structure du Projet
-
-Le projet est structuré en différentes couches :
+La couche DAO
 
 ### Entités
 
@@ -26,4 +22,7 @@ Des interfaces Repository ont été créées pour chaque entité afin de fournir
 - RendezVousRepository : Pour accéder aux données des rendez-vous.
 - ConsultationRepository : Pour accéder aux données des consultations.
 
+### Test
+![img.png](img.png)
 
+![img_1.png](img_1.png)
